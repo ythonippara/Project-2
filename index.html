@@ -17,7 +17,7 @@
             <option value="$10 - Base">$10 - Base</option>
             <option value="$25 - Love It!">$25 - Love It!</option>
             <option value="$50 - Gotta Have it!">$50 - Gotta Have it!</option>
-            <option value="$100 - Centennial/">$100 - Centennial</option>
+            <option value="$100 - Centennial">$100 - Centennial</option>
           </select>
         </div>
       </fieldset>
@@ -113,19 +113,9 @@
         </div>
       </fieldset>
       <fieldset>
-        <legend>Additional Information</legend>
+        <legend>Additional Membership</legend>
         <div>
           <label>Would you like to add another member for your household?</label>
-          <label>Yes</label><input type="radio" name="yes_no_field" value="yes">
-          <label>No <input type="radio" name="yes_no_field" value="no"></label>
-        </div>
-        <div>
-          <label>Would you like to subscribe to our monthly newsletter?</label>
-          <label>Yes</label><input type="radio" name="yes_no_field" value="yes">
-          <label>No <input type="radio" name="yes_no_field" value="no"></label>
-        </div>
-        <div>
-          <label>Would you like to volunteer for any future event?</label>
           <label>Yes</label><input type="radio" name="yes_no_field" value="yes">
           <label>No <input type="radio" name="yes_no_field" value="no"></label>
         </div>
@@ -143,6 +133,14 @@
         <div>
           <label>CVV </label>
           <input type="text" id="phnum" class="fontsize" name="phone_field" placeholder="CVV" />
+        </div>
+        <div>
+          <input type="checkbox" name="available_field[]" value="blah">
+          <label>I would like to subscribe to RMIA monthly newsletter.</label>
+        </div>
+        <div>
+          <input type="checkbox" name="available_field[]" value="blah">
+          <label>I would like to receive notifications for future RMIA volunteer opportunities.</label>
         </div>
       </fieldset>
       <div>
